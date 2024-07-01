@@ -1,0 +1,7 @@
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+/* when writing this css i messed up by not adding space before .text and the editing did not show on the html; aka you need a space for it to work */
