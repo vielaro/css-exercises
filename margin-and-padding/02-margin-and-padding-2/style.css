@@ -2,26 +2,37 @@ body {
   background: #eee;
   font-family: sans-serif;
 }
-
+/* this was correct, i added just 8px padding */
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
-
+/* here i did not realise that its margin bottom 8 and padding 8 */
 .title {
   background: #e3f4ff;
+  font-size: 16px;
+  margin-bottom: 8px;
+  padding: 8px;
 }
-
+/* here again, didnt know its margin to the bottom and padding is 16px and 8px? */
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
-
+/* this was correct fully */
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin:0 auto;
+  padding: 8px 24px;
 }
